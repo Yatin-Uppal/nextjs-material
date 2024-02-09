@@ -49,7 +49,7 @@ const AppStoreProvider: FunctionComponent<PropsWithChildren> = ({ children }) =>
 
   const initialState: AppStoreState = {
     ...INITIAL_APP_STATE,
-    darkMode: previousDarkMode || prefersDarkMode,
+    // darkMode: previousDarkMode || prefersDarkMode,
     // isAuthenticated: tokenExists,
   };
   const value: AppContextReturningType = useReducer(AppReducer, initialState);

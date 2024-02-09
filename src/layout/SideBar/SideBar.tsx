@@ -72,12 +72,12 @@ const SideBar: FunctionComponent<Props> = ({ anchor, open, variant, items, onClo
             marginTop: 2,
           }}
         >
-          <Tooltip title={state.darkMode ? 'Switch to Light mode' : 'Switch to Dark mode'}>
+          {/* <Tooltip title={state.darkMode ? 'Switch to Light mode' : 'Switch to Dark mode'}>
             <FormControlLabel
               label={!state.darkMode ? 'Light mode' : 'Dark mode'}
               control={<Switch checked={state.darkMode} onChange={onSwitchDarkMode} />}
             />
-          </Tooltip>
+          </Tooltip> */}
 
           {state.isAuthenticated && <AppIconButton icon="logout" title="Logout Current User" onClick={onLogout} />}
         </Stack>

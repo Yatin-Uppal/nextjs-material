@@ -1,0 +1,11 @@
+.line-3 {
+    background-color: #fff;
+    border: none;
+    border-radius: 20px 20px 10px 10px;
+    line-height: 1.5em;
+}
+
+.line_3_footer {
+    margin-left: 50px;
+    line-height: 1.7;
+}

@@ -17,27 +17,57 @@ import {
 } from './config';
 
 // TODO: change to your app name or other word
-const TITLE_PRIVATE = '_TITLE_ app'; // Title for pages after authentication
+const TITLE_PRIVATE = 'Dashboard'; // Title for pages after authentication
 
 /**
  * SideBar navigation items with links
  */
 const SIDE_BAR_ITEMS: Array<LinkToPage> = [
   {
-    title: 'Home',
+    title: 'Dashboard',
     path: '/',
-    icon: 'home',
+    icon: 'dashboard',
   },
   {
-    title: 'Profile (404)',
-    path: '/user',
-    icon: 'account',
+    title: 'User Profile',
+    path: '/userProfile',
+    icon: 'login',
   },
   {
-    title: 'About',
-    path: '/about',
-    icon: 'info',
+    title: 'Table List',
+    path: '/table',
+    icon: 'table',
   },
+  {
+    title: 'Typography',
+    path: '/typography',
+    icon: 'content',
+  },
+  // {
+  //   title: 'Icons',
+  //   path: '/icons',
+  //   icon: 'scatter',
+  // },
+  {
+    title: 'Forms',
+    path: '/forms',
+    icon: 'forms',
+  },
+  // {
+  //   title: 'Maps',
+  //   path: '/maps',
+  //   icon: 'location',
+  // },
+  // {
+  //   title: 'Notifications',
+  //   path: '/notifications',
+  //   icon: 'notifications',
+  // },
+  // {
+  //   title: 'RTL Support',
+  //   path: '/rtl-support',
+  //   icon: 'language',
+  // },
 ];
 
 if (process.env.NEXT_PUBLIC_DEBUG) {
@@ -84,7 +114,7 @@ const PrivateLayout: FunctionComponent<PropsWithChildren> = ({ children }) => {
     >
       <Stack component="header">
         <TopBar
-          startNode={<AppIconButton icon="logo" onClick={shouldOpenSideBar ? onLogoClick : onSideBarOpen} />}
+          startNode={<AppIconButton icon="menu" onClick={shouldOpenSideBar ? onLogoClick : onSideBarOpen} />}
           title={title}
         />
 

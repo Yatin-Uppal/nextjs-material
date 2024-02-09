@@ -12,7 +12,7 @@ import { useEventSwitchDarkMode, useOnMobile } from '../hooks';
 import { BOTTOM_BAR_DESKTOP_VISIBLE, TOP_BAR_DESKTOP_HEIGHT, TOP_BAR_MOBILE_HEIGHT } from './config';
 
 // TODO: change to your app name or other word
-const TITLE_PUBLIC = '_TITLE_ app'; // Title for pages without/before authentication
+const TITLE_PUBLIC = 'Dashboard'; // Title for pages without/before authentication
 
 /**
  * SideBar navigation items with links
@@ -28,11 +28,11 @@ const SIDE_BAR_ITEMS: Array<LinkToPage> = [
     path: '/auth/signup',
     icon: 'signup',
   },
-  {
-    title: 'About',
-    path: '/about',
-    icon: 'info',
-  },
+  // {
+  //   title: 'About',
+  //   path: '/about',
+  //   icon: 'info',
+  // },
 ];
 
 if (process.env.NEXT_PUBLIC_DEBUG) {
@@ -94,7 +94,7 @@ const PublicLayout: FunctionComponent<PropsWithChildren> = ({ children }) => {
     >
       <Stack component="header">
         <TopBar
-          startNode={<AppIconButton icon="logo" onClick={onSideBarOpen} />}
+          startNode={<AppIconButton icon="menu" onClick={onSideBarOpen} />}
           title={title}
           endNode={
             <AppIconButton

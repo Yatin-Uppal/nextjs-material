@@ -20,6 +20,13 @@ import PersonAddIcon from '@mui/icons-material/PersonAdd';
 import PersonIcon from '@mui/icons-material/Person';
 import ExitToAppIcon from '@mui/icons-material/ExitToApp';
 import NotificationsIcon from '@mui/icons-material/NotificationsOutlined';
+import DashboardIcon from '@mui/icons-material/Dashboard';
+import LocationOnIcon from '@mui/icons-material/LocationOn';
+import LanguageIcon from '@mui/icons-material/Language';
+import ContentPasteIcon from '@mui/icons-material/ContentPaste';
+import ContentCopyIcon from '@mui/icons-material/ContentCopy';
+import ScatterPlotIcon from '@mui/icons-material/ScatterPlot';
+import FormatAlignLeftIcon from '@mui/icons-material/FormatAlignLeft';
 
 /**
  * How to use:
@@ -43,11 +50,19 @@ export const ICONS: Record<string, ComponentType> = {
   search: SearchIcon,
   info: InfoIcon,
   home: HomeIcon,
+  dashboard: DashboardIcon,
   account: AccountCircle,
   signup: PersonAddIcon,
   login: PersonIcon,
   logout: ExitToAppIcon,
   notifications: NotificationsIcon,
+  table: ContentPasteIcon,
+  location: LocationOnIcon,
+  language: LanguageIcon,
+  content: ContentCopyIcon,
+  scatter: ScatterPlotIcon,
+  forms: FormatAlignLeftIcon
+
 };
 
 export interface AppIconProps extends SVGAttributes<SVGElement> {

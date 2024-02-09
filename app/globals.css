@@ -10,9 +10,23 @@ body {
   overflow-x: hidden;
   /* required for sticky elements: HeaderMobile, and so on */
   max-height: 100vh;
+  background-color: rgba(199, 199, 189, 0.199) !important;
 }
 
 a {
   color: inherit;
   text-decoration: none;
+}
+
+.background {
+    background-color: rgba(199, 199, 189, 0.199);
+}
+
+.mui-1xkz0he-MuiResponsiveChart-container {
+  overflow: unset !important;
+}
+.mui-1xkz0he-MuiResponsiveChart-container>svg {
+  width: 90% !important;
+  position: absolute !important;
+  top: -10px;
 }

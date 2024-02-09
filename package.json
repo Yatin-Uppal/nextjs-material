@@ -38,6 +38,7 @@
     "@emotion/styled": "latest",
     "@mui/icons-material": "latest",
     "@mui/material": "latest",
+    "@mui/x-charts": "^6.19.3",
     "clsx": "latest",
     "copy-to-clipboard": "latest",
     "next": "latest",
