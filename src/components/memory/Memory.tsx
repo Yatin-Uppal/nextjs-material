@@ -14,7 +14,7 @@ const Memory = () => {
             position: 'absolute',
             top: '-17px',
             left: '10px',
-            backgroundColor: '#ff7e00bd',
+            backgroundColor: '#ff7e00',
             color: '#fff',
             borderRadius: '5px',
           }}
