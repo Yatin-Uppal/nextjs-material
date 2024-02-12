@@ -10,7 +10,7 @@ import DemoAppImage from '../dev/components/DemoAppImage';
 import BasicLineChart from 'src/components/charts/BasicLineChart';
 import BasicBars from 'src/components/bars/BasicBars';
 import Chart from 'src/components/lineChart/Chart';
-import Tasks from 'src/components/tasks/Tasks';
+import Todo from 'src/components/todo/Todo';
 import Employeestats from 'src/components/employeeStats/Employeestats';
 import Memory from 'src/components/memory/Memory';
 import Revenue from 'src/components/Revenue/Revenue';
@@ -48,7 +48,7 @@ const Home: NextPage = () => {
     <BasicBars/>
     <Chart/>
     <div style={{display: 'flex', margin: '50px 50px'}}>
-    <Tasks/>
+    <Todo/>
     <Employeestats/>
     </div>
     </div>

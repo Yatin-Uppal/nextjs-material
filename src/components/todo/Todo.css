@@ -1,0 +1,25 @@
+.todo {
+    max-width: 50%;
+    width: 50%;
+    min-width: 50%;
+    margin-left: -50px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    position: relative;
+}
+
+.todo_navbar {
+    color: white;
+    /* margin-left: 10px; */
+    position: absolute;
+    display: flex;
+    background-color: #9242db;
+    border-radius: 5px;
+    padding: 10px;
+    top: -20px;
+    width: 94%;
+    justify-content: flex-start;
+    gap: 8%;
+    align-items: center;
+}

@@ -28,5 +28,18 @@ a {
 .mui-1xkz0he-MuiResponsiveChart-container>svg {
   width: 90% !important;
   position: absolute !important;
-  top: -10px;
+  top: -20px;
+}
+
+.mui-zqjp58-MuiChartsSurface-root {
+  border-radius: 10px !important;
+}
+
+.mui-6r76f2-MuiChartsSurface-root {
+  border-radius: 10px !important;
+}
+
+
+.mui-szo83e-MuiChartsSurface-root {
+  border-radius: 10px !important;
 }
