@@ -1,4 +1,4 @@
-"use client"
+'use client';
 import { Metadata, NextPage } from 'next';
 import { Stack, Typography } from '@mui/material';
 import { AppLink } from 'src/components';
@@ -16,6 +16,7 @@ import Memory from 'src/components/memory/Memory';
 import Revenue from 'src/components/Revenue/Revenue';
 import FixedIssues from 'src/components/FixedIssues/FixedIssues';
 import Followers from 'src/components/Followers/Followers';
+import Footer from 'src/components/footer/Footer';
 
 // export const metadata: Metadata = {
 //   title: 'Dashboard',
@@ -27,7 +28,6 @@ import Followers from 'src/components/Followers/Followers';
  * @page Home
  */
 const Home: NextPage = () => {
-
   const accessToken = sessionStorage.getItem('access_token');
 
   // Check if access token is not present
@@ -38,19 +38,20 @@ const Home: NextPage = () => {
   // const accessToken = sessionStorage.getItem('access_token');
 
   return (
-    <div style={{display: 'flex', flexFlow: "row wrap", marginLeft: '50px', marginTop: "50px"}}>
-      <Memory/>
-      <Revenue/>
-      <FixedIssues/>
-      <Followers/>
+    <div style={{ display: 'flex', flexFlow: 'row wrap', marginLeft: '50px', marginTop: '50px' }}>
+      <Memory />
+      <Revenue />
+      <FixedIssues />
+      <Followers />
 
-    <BasicLineChart/>
-    <BasicBars/>
-    <Chart/>
-    <div style={{display: 'flex', margin: '50px 50px'}}>
-    <Todo/>
-    <Employeestats/>
-    </div>
+      <BasicLineChart />
+      <BasicBars />
+      <Chart />
+      <div style={{ display: 'flex', margin: '50px 50px' }}>
+        <Todo />
+        <Employeestats />
+      </div>
+      <Footer />
     </div>
     // <Stack spacing={2} padding={2}>
     //   <Stack>

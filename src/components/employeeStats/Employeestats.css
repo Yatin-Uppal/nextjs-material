@@ -1,31 +1,30 @@
 .employee-stats {
-    max-width: 50%;
-    min-width: 50%;
-    width: 50%;
-    margin-left: 50px;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 10px;
-    position: relative;
+  max-width: 50%;
+  min-width: 50%;
+  width: 50%;
+  margin-left: 50px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  position: relative;
 }
 
 .employee-stats_header {
-    background-color: orange;
-    position: absolute;
-    top: -25px;
-    color: #fff;
-    width: 90%;
-    border-radius: 5px;
-    padding: 10px;
-    top: -20px;
-    width: 94%;
+  background-color: orange;
+  position: absolute;
+  top: -25px;
+  color: #fff;
+  width: 90%;
+  border-radius: 5px;
+  padding: 10px;
+  top: -20px;
+  width: 94%;
 }
 
 .employee-stats_header > h1 {
-    font-size: large;
+  font-size: large;
 }
 
 .employee-stats_content {
-    margin-top: 30px;
-
+  margin-top: 30px;
 }

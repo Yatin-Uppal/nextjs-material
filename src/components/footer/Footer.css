@@ -1,0 +1,17 @@
+.footer {
+  width: 96%;
+  background-color: #ffffff70;
+  display: flex;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.footer_left {
+  display: flex;
+  justify-content: flex-start;
+  gap: 30px;
+}
+
+.footer_right {
+  margin-left: auto;
+}

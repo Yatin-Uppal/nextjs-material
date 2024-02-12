@@ -61,8 +61,7 @@ export const ICONS: Record<string, ComponentType> = {
   language: LanguageIcon,
   content: ContentCopyIcon,
   scatter: ScatterPlotIcon,
-  forms: FormatAlignLeftIcon
-
+  forms: FormatAlignLeftIcon,
 };
 
 export interface AppIconProps extends SVGAttributes<SVGElement> {

@@ -1,14 +1,14 @@
 .line-chart {
-    margin-right: 20px !important;
-    background: #fff;
-    border: none;
-    border-radius: 10px;
-    line-height: 1.5em;
-    position: relative;
-    /* padding: 20px; */
+  margin-right: 20px !important;
+  background: #fff;
+  border: none;
+  border-radius: 10px;
+  line-height: 1.5em;
+  position: relative;
+  /* padding: 20px; */
 }
 
 .line_chart_footer {
-    margin-left: 50px;
-    line-height: 1.7;
+  margin-left: 50px;
+  line-height: 1.7;
 }
