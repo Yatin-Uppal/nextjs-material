@@ -10,6 +10,9 @@
   margin-left: 50px;
   line-height: 1.7;
 }
-/* .mui-1xkz0he-MuiResponsiveChart-container{
-    overflow: auto !important;
-} */
+
+@media only screen and (max-width: 768px) {
+  .bar {
+    margin-top: 50px;
+  }
+}

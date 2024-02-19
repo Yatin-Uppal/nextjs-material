@@ -36,6 +36,7 @@
     "@emotion/react": "latest",
     "@emotion/server": "latest",
     "@emotion/styled": "latest",
+    "@mui/base": "^5.0.0-beta.36",
     "@mui/icons-material": "latest",
     "@mui/material": "latest",
     "@mui/x-charts": "^6.19.3",

@@ -38,40 +38,26 @@ const Home: NextPage = () => {
   // const accessToken = sessionStorage.getItem('access_token');
 
   return (
-    <div style={{ display: 'flex', flexFlow: 'row wrap', marginLeft: '50px', marginTop: '50px' }}>
-      <Memory />
-      <Revenue />
-      <FixedIssues />
-      <Followers />
+    <>
+      <div style={{ display: 'flex', flexFlow: 'row wrap', marginLeft: '50px', marginTop: '50px' }}>
+        <Memory />
+        <Revenue />
+        <FixedIssues />
+        <Followers />
+      </div>
 
-      <BasicLineChart />
-      <BasicBars />
-      <Chart />
-      <div style={{ display: 'flex', margin: '50px 50px' }}>
+      <div style={{ display: 'flex', flexFlow: 'row wrap', marginLeft: '50px', marginTop: '50px' }}>
+        <BasicLineChart />
+        <BasicBars />
+        <Chart />
+      </div>
+      {/* <div style={{ display: 'flex', flexFlow: 'row wrap', marginLeft: '50px', marginTop: '50px' }}> */}
+      <div style={{ maxWidth: '100%', display: 'flex', margin: '50px 50px', flexWrap: 'wrap' }}>
         <Todo />
         <Employeestats />
       </div>
       <Footer />
-    </div>
-    // <Stack spacing={2} padding={2}>
-    //   <Stack>
-    //     <Typography variant="h3">About application</Typography>
-    //     <Typography variant="body1">
-    //       This application is a mix of{' '}
-    //       <AppLink href="https://nextjs.org/docs/api-reference/create-next-app">Create Next App</AppLink> and{' '}
-    //       <AppLink href="https://mui.com/">MUI</AppLink> with set of reusable components and utilities to build
-    //       professional <AppLink href="https://nextjs.org/">NextJS</AppLink> application faster.
-    //     </Typography>
-    //   </Stack>
-
-    //   <Stack alignItems="center" spacing={1}>
-    //     <DemoAppAlert />
-    //     <DemoAppButton />
-    //     <DemoAppIcon />
-    //     <DemoAppIconButton />
-    //     <DemoAppImage />
-    //   </Stack>
-    // </Stack>
+    </>
   );
 };
 
