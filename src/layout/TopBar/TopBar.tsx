@@ -32,6 +32,8 @@ const TopBar: FunctionComponent<Props> = ({ endNode, startNode, title = '', ...r
             flexGrow: 1,
             textAlign: 'center',
             whiteSpace: 'nowrap',
+            color: "white",
+            fontWeight: "bold"
           }}
         >
           {title}

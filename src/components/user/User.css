@@ -1,0 +1,12 @@
+.user_page_upper_div {
+    background: url("/img/download3.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.navbar_main_div {
+    background-color: black !important;
+}
+.mui-h2y2zb-MuiGrid-root>.MuiGrid-item {
+    padding-top: 0px !important;
+}

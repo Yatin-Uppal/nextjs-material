@@ -40,11 +40,14 @@
     "@mui/icons-material": "latest",
     "@mui/material": "latest",
     "@mui/x-charts": "^6.19.3",
+    "@types/react-swipeable-views": "^0.13.5",
+    "@types/react-swipeable-views-utils": "^0.13.7",
     "clsx": "latest",
     "copy-to-clipboard": "latest",
     "next": "latest",
     "react": "latest",
-    "react-dom": "latest"
+    "react-dom": "latest",
+    "react-swipeable-views": "^0.14.0"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "latest",

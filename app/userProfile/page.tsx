@@ -1,5 +1,12 @@
-const UserProfile = () => {
-  return <div>This is a user Profile page</div>;
-};
+"use client"
+import React from 'react'
+import UserNavbar from 'src/components/user/userNavbar'
+const page = () => {
+  return (
+    <>
+    <UserNavbar/>
+    </>
+  )
+}
 
-export default UserProfile;
+export default page

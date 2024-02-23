@@ -15,6 +15,9 @@ import {
   TOP_BAR_DESKTOP_HEIGHT,
   TOP_BAR_MOBILE_HEIGHT,
 } from './config';
+import { usePathname } from 'next/navigation';
+import UserNavbar from 'src/components/user/userNavbar';
+import User from 'src/components/user/User';
 
 // TODO: change to your app name or other word
 const TITLE_PRIVATE = 'Dashboard'; // Title for pages after authentication
@@ -83,6 +86,9 @@ if (process.env.NEXT_PUBLIC_DEBUG) {
  * @layout PrivateLayout
  */
 const PrivateLayout: FunctionComponent<PropsWithChildren> = ({ children }) => {
+  const pathname = usePathname();
+
+  console.log('pathname', pathname);
   const router = useRouter();
   const onMobile = useOnMobile();
   const [sideBarVisible, setSideBarVisible] = useState(false);
@@ -101,6 +107,10 @@ const PrivateLayout: FunctionComponent<PropsWithChildren> = ({ children }) => {
   const onSideBarClose = useCallback(() => {
     if (sideBarVisible) setSideBarVisible(false); // Don't re-render Layout when SideBar is already closed
   }, [sideBarVisible]);
+
+  if(pathname === '/userProfile'){
+    return <><User/></>
+  }
 
   return (
     <Stack
