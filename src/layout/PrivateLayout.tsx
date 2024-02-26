@@ -87,8 +87,6 @@ if (process.env.NEXT_PUBLIC_DEBUG) {
  */
 const PrivateLayout: FunctionComponent<PropsWithChildren> = ({ children }) => {
   const pathname = usePathname();
-
-  console.log('pathname', pathname);
   const router = useRouter();
   const onMobile = useOnMobile();
   const [sideBarVisible, setSideBarVisible] = useState(false);
