@@ -5,10 +5,12 @@ import Lists from 'src/components/Typography/Lists';
 
 const Typography = () => {
   return (
-    <Box sx={{margin: "auto"}}>
-      <Heading />
-      <Paragraphs />
-      <Lists />
+    <Box sx={{ background: 'beige' }}>
+      <Box sx={{ margin: 'auto' }}>
+        <Heading />
+        <Paragraphs />
+        <Lists />
+      </Box>
     </Box>
   );
 };
